@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color:rgb(246, 247, 232);
+}
+
+#mainContainer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(28, 28, 75);
+  font-size: 50px;
+}
+
+#counterDisplay{
+  color: green;
+  font-size: 110px;
+  padding: 15px;
+}
+
+.buttons{
+  padding: 5px;
+}
+
+
+/* Can I not share the same properties - like border
+amoung different elements? */
+#decreaseBtn {
+  border: 2px black solid;
+  border-radius: 3px;
+  padding: 5px 8px;
+  margin: 0 5px;
+  background-color: rgb(246, 247, 232);
+}
+
+#resetBtn {
+  border: 2px black solid;
+  border-radius: 3px;
+  padding: 5px 8px;
+  margin: 0 5px;
+  background-color: rgb(246, 247, 232);
+}
+
+#increaseBtn {
+  border: 2px black solid;
+  border-radius: 3px;
+  padding: 5px 8px;
+  margin: 0 5px;
+  background-color: rgb(246, 247, 232);
+}
